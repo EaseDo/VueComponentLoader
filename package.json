@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EaseDo/VueTsxLoader.git"
+    "url": "git+https://github.com/EaseDo/vue-tsx-loader.git"
   },
   "keywords": [
     "vue",
@@ -20,7 +20,7 @@
   "author": "EaseDo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EaseDo/VueTsxLoader/issues"
+    "url": "https://github.com/EaseDo/vue-tsx-loader/issues"
   },
-  "homepage": "https://github.com/EaseDo/VueTsxLoader#readme"
+  "homepage": "https://github.com/EaseDo/vue-tsx-loader#readme"
 }
