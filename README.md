@@ -32,12 +32,12 @@ module.exports = {
 ```
 
 ## Example
-##### app.tsx
+##### app.html
 ```
 <div>Component</div>
 ```
 
-##### app.html
+##### app.tsx
 ```
 import { defineComponent } from 'vue';
 import './app.less'
