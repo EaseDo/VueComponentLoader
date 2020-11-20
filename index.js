@@ -13,8 +13,11 @@ module.exports = async function(source, map) {
             template = String(fs.readFileSync(templatePath))
         // jade render if template is jade
         isJade && (template = require('jade').render(template))
-    
+
         source = `<template>${template}</template>` + source;
+
+        // add watch
+        this.addDependency(templatePath)
     }
     catch(err) {
         console.log(err)
